@@ -11,14 +11,14 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #cdc2dd;
+  background: #ebdcfb;
   padding: 30px;
 }
 .container{
   position: relative;
-  max-width: 850px;
+  max-width: 1300px;
   width: 100%;
-  background: #fff;
+  background: #ffffff;
   padding: 40px 30px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   perspective: 2700px;
@@ -71,15 +71,7 @@ body{
   backface-visibility: hidden;
 }
 .container .cover::before,
-.container .cover::after{
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: #b391df;
-  opacity: 0.75;
-  z-index: 12;
-}
+
 .container .cover::after{
   opacity: 0.3;
   transform: rotateY(180deg);
@@ -102,7 +94,6 @@ body{
   align-items: center;
   justify-content: center;
 }
-
 
 .container .forms{
   height: 100%;
